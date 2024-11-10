@@ -17,7 +17,6 @@ app.use('/', (req, res) => {
   res.send('Server`s alive');
 });
 
-// Запуск сервера
 app.listen(o.port, o.host, () => {
-  console.log(`Server running at http://${o.host}:${o.port}`);
+  console.log(`Server's running at http://${o.host}:${o.port}`);
 });
